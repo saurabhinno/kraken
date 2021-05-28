@@ -1,0 +1,21 @@
+{
+  "name": "kraken",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "kraken-api": "^1.0.1",
+    "mongoose": "^5.12.11",
+    "morgan": "~1.9.1",
+    "node-cron": "^3.0.0"
+  }
+}
